@@ -1,0 +1,31 @@
+{
+    "projects" : [
+        {   
+            "id" : 1,
+            "title": "Local_repo",
+            "short_desc": "Local repository of packages" ,
+            "description" : "A web application developed with Python and Flask for having a local repository of packages of Python. Give the possibility of configuring pip(Python package manager) to consume of that repo and shows up all the packages in the repo. The application can be installed using pip(pip install repopip) and allowed me to take a quick understanding of main concepts of python and flask.",
+            "tech": "HTML, CSS, Javascript, Python, Flask.",
+            "github": "https://github.com/",
+            "img" : "/src/assets/projects/repopip.png"
+        },
+        {
+            "id" : 2,
+            "title": "Doc_server",
+            "short_desc": "Local documentation server" ,
+            "description" : "Simple application that serves documentations of different technologies with the very basic http server provided by python. The app has a CLI that can be used to start the servers, add new documentations, list and delete existing ones. Even though it's a simple app, it was extremely helpful in letting me read the tech documentation anywhere and without an internet connection. By developing it I was able to put into practice concepts such as multithreading, development of command line interfaces and a basic understanding of an http server.",
+            "tech": "Python.",
+            "github": "https://github.com/",
+            "img" : "/src/assets/projects/doc_server.png"
+        },
+        {
+            "id" : 3,
+            "title": "E_commerce",
+            "short_desc": "E-commerce website" ,
+            "description" : "Complete application of e-commerce of technological products. The application is a SPA that can list the products by category, show details (images, description and prices) and add them to the cart. Also, the app has user authentication, cart status manager and payment simulation. It was developed by splitting the app into frontend and backend, doing the backend with Django and Django Rest Framework and the frontend with Vue was a really good hands-on exercise to test my new skills.",
+            "tech": "HTML, SASS, Javascript, Vue, Python, Django, Django Rest Framework",
+            "github": "https://github.com/",
+            "img" : "/src/assets/projects/decomerce.png"
+        }
+    ]
+}
