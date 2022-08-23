@@ -1,10 +1,10 @@
 <template>
-        <div class="flex justify-between flex-col gap-16 sm:flex-row  mt-8 lg:mt-0">
+    <div class="flex justify-between flex-col gap-16 lg:flex-row  mt-8">
         <div class="lg:w-4/5">
             <div class="p-3 inline-block relative -top-5 bg-black text-white">
                 <h3 class="ml-8 font-bold">Project</h3>
             </div>
-            <div class="container ml-2 lg:ml-6 bg-slate-50 px-4 py-2 lg:px-24 lg:py-6">
+            <div class="container ml-2 lg:ml-6 bg-slate-50 px-4 py-2 lg:px-10 lg:py-6">
                 <h3 class="text-md sm:text-lg lg:text-2xl">{{ project.title }}</h3>
                 <h3 class="text-lg sm:text-xl lg:text-3xl font-bold mt-3">{{ project.short_desc }}</h3>
                 <p class="mt-2 text-sm sm:text-base text-justify">{{project.description}}</p>
@@ -16,7 +16,7 @@
             </div>
         </div>
         <div class="mx-2 relative -top-5">
-            <img :src="imageUrl" :alt="project.title" class="mx-auto lg:max-w-2xl lg:ml-auto lg:mr-8">
+            <img :src="imageUrl" :alt="project.title" class="mx-auto max-w-lg lg:max-w-xl lg:ml-auto lg:mr-8">
         </div>
     </div>   
 </template>
