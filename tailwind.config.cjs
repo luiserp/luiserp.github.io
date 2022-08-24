@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        sxs: '18rem',
+      },
       colors: {
         primary_dark_color_theme: colors.slate[800],
         secondary_dark_color_theme: colors.slate[700],

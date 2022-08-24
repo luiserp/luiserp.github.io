@@ -6,7 +6,7 @@
     
             <img src="../assets/profile2.jpg" alt="profile picture" class="rounded-full h-44 w-44">
     
-            <div class="ml-2  py-0 px-4 lg:pl-12">
+            <div class="ml-2  py-0 px-4 lg:pl-12 text-center sm:text-justify">
                 <h3 class="text-2xl lg:text-3xl text-gray-600 dark:text-slate-400">Hi! I'm Luis Enrique</h3>
                 <h3 class="text-3xl lg:text-4xl sm:text-left font-bold mt-3">Welcome to my portfolio</h3>
             </div>
@@ -18,7 +18,7 @@
             <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color dark:text-black text-white">
                 <h3 class="ml-8 font-bold">About me</h3>
             </div>
-            <div class="container  px-4 py-2 lg:px-12 lg:py-6">
+            <div class="lg:lg:container px-4 py-2 lg:px-12 lg:py-6">
                 <div class="mt-5">
                     <h3 class="text-lg sm:text-xl font-bold mt-3">Overview </h3>
                     <p class="mt-2 text-base sm:text-lg text-justify">I'm Luis Enrique Reyes Pérez, a Computer Sciences Enginier graduated at The University of Informatics Sciences in Havana Cuba (Honour Student). I'm always looking something new to learn and the perfect situations for apliying it. I like to see how a project grow organically, according with the needs and requirements. I have used a lot of technologies and tools in my conding adventures and I realized that Artificial Intelligence and Web development are my favorite fields of computer science so I focused on them.
@@ -40,12 +40,12 @@
         </div>
     
          <!-- Work Experience -->
-        <div class="flex justify-between gap-16 sm:flex-col mt-12">
+        <div class="flex justify-between gap-16 sm:flex-col">
             <div class="lg:w-11/12">
-                <div class="p-3 inline-block relative -top-5 bg-black dark:bg-ping_dark_color dark:text-black text-white">
+                <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color dark:text-black text-white">
                     <h3 class="ml-8 font-bold">Work Experience</h3>
                 </div>
-            <div class="container grid grid-cols-1 sm:grid-cols-2 gap-8   px-4 py-2 lg:px-12 lg:py-6">
+            <div class="lg:container grid grid-cols-1 sm:grid-cols-2 gap-8   px-4 py-2 lg:px-12 lg:py-6">
     
                 <div class="ml-2 md:ml-12 mt-4">
                     <h3 class="text-xl font-bold">Technological Science Park | 2022 - present</h3>
@@ -75,13 +75,13 @@
                 <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color dark:text-black text-white">
                     <h3 class="ml-8 font-bold">Tools and Skills</h3>
                 </div>
-                <div class="container grid grid-cols-1 md:grid-cols-2 gap-2   px-4 pr-2 lg:pr-12 lg:py-6">
+                <div class="lg:container grid grid-cols-1 md:grid-cols-2 gap-2   px-4 pr-2 lg:pr-12 lg:py-6">
     
                     <div>
-                        <img src="../assets/tools.jpg" alt="Tools and Skills" class="mx-auto inline-block h-auto sm:max-h-80">
+                        <img src="../assets/tools.jpg" alt="Tools and Skills" class="mx-auto inline-block h-auto sm:max-h-80 mt-4">
                     </div>
     
-                    <div class="flex justify-center items-center gap-2">
+                    <div class="flex justify-center items-center gap-2 py-4">
     
                         <ul class="list-disc ml-6">
                             <li class="text-lg">Artificial Intelligence</li>
@@ -104,12 +104,12 @@
         </div>
     
             <!-- Latest Projects -->
-        <div class="flex justify-between gap-16 sm:flex-col mt-12">
+        <div class="flex justify-between gap-16 sm:flex-col ">
             <div class="lg:w-11/12">
-                <div class="p-3 inline-block relative -top-5 bg-black dark:bg-ping_dark_color dark:text-black text-white">
+                <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color dark:text-black text-white">
                     <h3 class="ml-8 font-bold">Latest projects</h3>
                 </div>
-                <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8  px-4 py-2 lg:px-12 lg:py-6">
+                <div class="lg:container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8  px-4 py-2 lg:px-12 lg:py-6">
     
                     <Card v-motion
                     :initial="{ opacity: 0, y: 100 }"
