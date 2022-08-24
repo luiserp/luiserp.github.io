@@ -143,7 +143,6 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
 import { useDark, useToggle } from '@vueuse/core'
 
 const isdark = useDark()

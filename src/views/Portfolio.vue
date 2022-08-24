@@ -5,7 +5,7 @@
             <div class="p-3 inline-block relative -top-5 bg-black dark:bg-ping_dark_color text-white">
                 <h3 class="ml-8 font-bold">Projects</h3>
             </div>
-            <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ml-2 lg:ml-6 px-2 py-2 lg:px-12 lg:py-6">
+            <div class="lg:container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 ml-2 lg:ml-6 px-2 py-2 lg:px-12 lg:py-6">
                 
                 <Card v-for="p in projects" :key="p.id" :project="p"></Card>
 

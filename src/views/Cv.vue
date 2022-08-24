@@ -13,7 +13,7 @@
             <h3 class="ml-8 font-bold">Curriculum Vitae</h3>
         </div>
         <div class="lg:w-4/5 overflow-hidden">
-            <div class="container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
+            <div class="lg:container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
                 <h3 class="font-bold text-lg">Skills Summary</h3>
                 <ul class="list-disc ml-2 md:ml-12 mt-2">
                     <li>Software engineer. Specialized in artificial intelligence and web development.</li>
@@ -25,13 +25,13 @@
             </div>
         </div>
         <div class="lg:w-4/5 overflow-hidden mt-8 ">
-            <div class="container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
+            <div class="lg:container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
                 <h3 class="font-bold text-lg">Education</h3>
                 <p class="ml-2 md:ml-12 inline-block"><strong>2017 - 2022</strong> B.S in Computer Sciences (Honour Student “Título de Oro”, Grade: 5.27 / 5). Universidad de las Ciencias Informáticas, Havana, Cuba.</p>
             </div>
         </div>
         <div class="lg:w-4/5 overflow-hidden mt-8 ">
-            <div class="container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
+            <div class="lg:container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
                 <h3 class="font-bold text-lg">Professional Experience</h3>
                 <div class="ml-2 md:ml-12 mt-4">
                     <p><strong>2022 - Present</strong> -  Software Developer - Technological Science Park, Universidad de las Ciencias Informáticas, Cuba.</p>
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="lg:w-4/5 overflow-hidden mt-8 ">
-            <div class="container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
+            <div class="lg:container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-24 lg:py-6">
                 <h3 class="font-bold text-lg">Skills</h3>
                 <div class="ml-2 md:ml-12">
                      <p>
