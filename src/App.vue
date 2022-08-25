@@ -6,9 +6,9 @@
 
 <template>
     <Navbar></Navbar>
-    
+    <!-- Exclude maths agains the component name -->
     <router-view v-slot="{ Component }">
-        <KeepAlive>
+        <KeepAlive exclude="view_proyect"> 
             <component :is="Component" />
         </KeepAlive>
     </router-view>

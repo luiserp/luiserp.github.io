@@ -21,6 +21,16 @@
     </div>   
 </template>
 
+<!-- Extra script option for seting the name of the component -->
+<script>
+  export default {
+    name: 'view_proyect',
+    inheritAttrs: false,
+    customOptions: {}
+  }
+</script>
+
+
 <script setup>
     import { useStore } from 'vuex'
     import { useRoute } from 'vue-router'
