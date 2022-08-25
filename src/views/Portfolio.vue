@@ -17,13 +17,13 @@
 <script setup>
     import Card from '../components/card.vue'
     import { useStore } from 'vuex'
-    import { onMounted } from '@vue/runtime-core';
+    import { onActivated } from '@vue/runtime-core';
 
     const store = useStore()
     let projects = store.state.projects
 
 
-    onMounted(()=>{
+    onActivated(()=>{
         document.title = "Portfolio"
     })
 </script>

@@ -42,6 +42,7 @@
     let project = store.getters.getprojectbyId(route.params.id)
     const imageUrl = new URL(project.img, import.meta.url).href
 
+    // Here I use onMounted insted of onActivate because this componen won't be cached by keep-alive
     onMounted(()=>{
         document.title = `Project | ${project.title}`
     })

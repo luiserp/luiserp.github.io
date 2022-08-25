@@ -1,11 +1,3 @@
-<script setup>
-    import { onMounted } from '@vue/runtime-core';
-
-    onMounted(()=>{
-        document.title = "Curriculum Vitae"
-    })
-</script>
-
 <template>
 
     <div>
@@ -72,6 +64,13 @@
 
 </template>
 
+<script setup>
+    import { onActivated } from '@vue/runtime-core';
+
+    onActivated(()=>{
+        document.title = "Curriculum Vitae"
+    })
+</script>
 <style scoped> 
     strong {
       color: rgb(113, 178, 128);

@@ -1,8 +1,7 @@
 <template>
         <!-- Header -->
         <Header></Header>
-    
-    
+
         <!-- About Me -->
         <About></About>
     
@@ -22,9 +21,9 @@
     import Experience from '../components/work_experience.vue' 
     import Tools from '../components/tools_skills.vue' 
     import Projects from '../components/lates_projects.vue' 
-    import { onMounted } from '@vue/runtime-core';
+    import { onActivated } from '@vue/runtime-core';
 
-    onMounted(()=>{
+    onActivated(()=>{
         document.title = "Luis E. Reyes"
     })
 
