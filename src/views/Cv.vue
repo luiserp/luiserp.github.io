@@ -74,7 +74,7 @@
 <style scoped> 
     strong {
       color: rgb(113, 178, 128);
-      @apply dark:text-ping_dark_color
+      @apply dark:text-slate-400
     }
 
 </style>

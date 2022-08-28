@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-between flex-col gap-8 lg:flex-row  mt-8">
         <div class="lg:w-4/5 overflow-hidden pt-6">
-            <div class="p-3 inline-block relative -top-5 bg-black dark:bg-ping_dark_color dark:text-black text-white">
+            <div class="p-3 inline-block relative -top-5 bg-black dark:bg-ping_dark_color text-white">
                 <h3 class="ml-8 font-bold">Project</h3>
             </div>
             <div class="lg:container ml-2 lg:ml-6 bg-slate-50 dark:bg-primary_dark_color_theme px-4 py-2 lg:px-10 lg:py-6">

@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         primary_dark_color_theme: colors.slate[800],
         secondary_dark_color_theme: colors.slate[700],
-        ping_dark_color: colors.slate[400],
+        ping_dark_color: colors.slate[900],
       },
     },
   },

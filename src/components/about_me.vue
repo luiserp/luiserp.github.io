@@ -1,6 +1,6 @@
 <template>
     <div class="mt-44 bg-slate-100 dark:bg-primary_dark_color_theme">
-            <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color dark:text-black text-white">
+            <div class="p-3 inline-block relative bg-black dark:bg-ping_dark_color text-white">
                 <h3 class="ml-8 font-bold">About me</h3>
             </div>
             <div class="lg:lg:container px-4 py-2 lg:px-12 lg:py-6">
